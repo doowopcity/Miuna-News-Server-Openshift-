@@ -1,7 +1,7 @@
 var	port = process.env.OPENSHIFT_NODEJS_PORT, 
 	ip = process.env.OPENSHIFT_NODEJS_IP;
 
-var http = require('http'),
+var http = require('http://multi-rotor-racing.co.uk:80'),
 	express = require('express'),
 	MiunaNewsServer = require('./lib/miunanews-server'),
 	app = express();
